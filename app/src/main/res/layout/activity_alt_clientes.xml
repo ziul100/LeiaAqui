@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,13 +8,13 @@
     tools:context=".Clientes">
 
     <TextView
-        android:id="@+id/txtCadClientes"
+        android:id="@+id/txtAltClientes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/txtCadClientes"
+        android:text="@string/txtAltClientes"
         android:textColor="@android:color/darker_gray"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -34,7 +35,7 @@
         android:text="@string/txtNomeCliente"
         android:textColor="@android:color/darker_gray"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtCadClientes" />
+        app:layout_constraintTop_toBottomOf="@+id/txtAltClientes" />
 
     <EditText
         android:id="@+id/txtEmailCliente"
@@ -115,7 +116,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtDataNascCliente" />
 
     <Button
-        android:id="@+id/btnCadastrarCliente"
+        android:id="@+id/btnAlterarCliente"
         android:layout_width="210dp"
         android:layout_height="35dp"
         android:layout_marginStart="100dp"
@@ -125,6 +126,6 @@
         android:textColor="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtCategoriaCliente"
-        tools:text="Cadastrar" />
+        tools:text="Alterar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

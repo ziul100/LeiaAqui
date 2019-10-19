@@ -20,7 +20,6 @@
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
         android:text="LeiaAqui"
-        android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"
-        />
+        android:textAppearance="@style/ThemeOverlay.AppCompat.Dark" />
 
 </LinearLayout>

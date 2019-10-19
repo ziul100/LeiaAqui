@@ -33,7 +33,9 @@
     <string name="img_cat_livro">ImagemCatLivro</string>
     <string name="txtDescCatLivro">Descrição da categoria</string>
     <string name="txtDiasEmprestimoCatLivro">Máximo de dias de empréstimo</string>
-    <string name="btnCadastrarCatLivros">CadastrarCatLivros</string>
+    <string name="btnCadastrarCatLivros">Cadastrar</string>
+    <string name="btnAlterarCatLivros">Alterar</string>
+    <string name="btnExcluirCatLivros">Excluir</string>
     <string name="txtIDCatLivro">Código da categoria</string>
     <string name="txtTaxaMulta">Taxa de Multa</string>
     <string name="txtCadCatLivros">Categoria de Livros</string>
@@ -41,6 +43,8 @@
     <string name="btnAltCatLivro">ALTERAR</string>
     <string name="btnExCatLivro">EXCLUIR</string>
     <string name="txtCadCatLivro">Cadastro de Categoria</string>
+    <string name="txtAltCatLivro">Alteração de Categoria</string>
+    <string name="txtExCatLivro">Exclusão de Categoria</string>
     <string name="checkCatLivro">Livro</string>
     <string name="checkCatPeriodico">Periódico</string>
     <string name="checkCatRevista">Revista</string>
@@ -57,6 +61,8 @@
     <string name="btnAltCliente">ALTERAR</string>
     <string name="btnExCliente">EXCLUIR</string>
     <string name="txtCadClientes">Cadastro de Cliente</string>
+    <string name="txtAltClientes">Alteração de Cliente</string>
+    <string name="txtExClientes">Exclusão de Cliente</string>
     <string name="txtNomeCliente">Nome</string>
     <string name="txtEmailCliente">E-mail</string>
     <string name="txtCPFCliente">CPF</string>
@@ -65,6 +71,13 @@
     <string name="txtDataNascCliente">Data de Nascimento</string>
     <string name="txtCategoriaCliente">Categoria de Leitor</string>
     <string name="btnCadastrarCliente">Cadastrar</string>
+    <string name="btnAlterarCliente">Alterar</string>
+    <string name="btnExcluirCliente">Excluir</string>
+    <string-array name="catLeitores">
+        <item>Estudante</item>
+        <item>Professor</item>
+        <item>Usuário Comum</item>
+    </string-array>
 
 
 </resources>
