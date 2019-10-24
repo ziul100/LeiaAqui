@@ -23,6 +23,7 @@ public class CriaBanco extends SQLiteOpenHelper  {
     private static final String DIAS_LIVROS = "DESCRICAO";
     private static final String DESCRICAO_LIVROS = "DIASEMPRESTIMIO";
 
+
     //TABELA LIVRO
     private static final String TABELA_LIVRO = "LIVRO";
     private static final String ID_LIVRO = "IDLIVRO";
