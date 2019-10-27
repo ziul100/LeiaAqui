@@ -20,9 +20,9 @@ public class CriaBanco extends SQLiteOpenHelper  {
     //TABELA CATEGORIA_LIVROS
     private static final String TABELA_LIVROS = "CATEGORIA_LIVROS";
     private static final String ID_LIVROS = "IDCATEGORIALIVROS";
-    private static final String DIAS_LIVROS = "DESCRICAO";
-    private static final String DESCRICAO_LIVROS = "DIASEMPRESTIMIO";
-
+    private static final String DIAS_LIVROS = "DIASEMPRESTIMIO";
+    private static final String TAXA_LIVROS = "TAXALIVROS";
+    private static final String DESCRICAO_LIVROS = "DESCRICAO";
 
     //TABELA LIVRO
     private static final String TABELA_LIVRO = "LIVRO";
@@ -94,6 +94,8 @@ public class CriaBanco extends SQLiteOpenHelper  {
     public static String getDiasLivros() {
         return DIAS_LIVROS;
     }
+
+    public static String getTaxaLivros() {return  TAXA_LIVROS; }
 
     public static String getDescricaoLivros() {
         return DESCRICAO_LIVROS;
@@ -211,6 +213,7 @@ public class CriaBanco extends SQLiteOpenHelper  {
         db.execSQL( "CREATE TABLE " + getTabelaLivros() + "("
                 + getIdLivros() + " integer primary key autoincrement,"
                 + getDiasLivros() + "text, "
+                + getTaxaLivros() + "text, "
                 + getDescricaoLivros() + "text)");
 
 

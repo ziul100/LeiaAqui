@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Cadastar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, Clientes.class);
+                Intent it = new Intent(MainActivity.this, CadastroFunc.class);
                 startActivity(it);
             }
         });
